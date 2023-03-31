@@ -17,21 +17,20 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['10785700'])
-API_HASH = environ['04a4924d21afcd9d27495f664a668f39']
-BOT_TOKEN = environ['6148749801:AAHvMG1754LdPRuPm4nPF14MvAyMqV2dnKY']
-
-
+API_ID = int(environ['API_ID'])
+API_HASH = environ['API_HASH']
+BOT_TOKEN = environ['BOT_TOKEN']
 
 # Log
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('1093884939', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('-1001741571047', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('1093884939', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-login_channel = environ.get('-1001686547778')
-auth_grp = environ.get('-1001773324199')
+login_channel = environ.get('LOGIN_CHANNEL')
+auth_grp = environ.get('AUTH_GROUP')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
+
 
 
 
