@@ -24,9 +24,9 @@ BOT_TOKEN = environ['
 
 
 # Log
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('1093884939', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('-1001741571047', '0').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('1093884939', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 login_channel = environ.get('-1001686547778')
 auth_grp = environ.get('-1001773324199')
@@ -77,8 +77,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_URI = environ.get('mongodb+srv://SVSFILTERBOT:SVSFILTERBOT@cluster0.1thbtci.mongodb.net/?retryWrites=true&w=majority', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
@@ -104,8 +104,8 @@ NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/MLZ_BOTZ_SUPPORT")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MLZ_BOTZ")
+S_GROUP = environ.get('S_GROUP',"https://t.me/svs_support_chat")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/svs_team_bot")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/svs_support_chat')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/svs_team_bot')
 MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
