@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/MLZ_BOTZ'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/MLZ_BOTZ_SUPPORT')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/svs_team_bot'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/svs_support_chat')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -137,10 +137,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/TGxMULTIBOT?startgroup=true')
+                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'https://t.me/svs_auto_filter_bot?startgroup=true')
                         ],[
-                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/at3movies'),
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/CKTalkies')
+                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/SVSTEAMSTUDIODISCUSSION'),
+                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/+DcoEb7L1bfNjYTI1')
                          ]
                         ]
                     )
@@ -156,10 +156,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/TGxMULTIBOT?startgroup=true')
+                          InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'https://t.me/svs_auto_filter_bot?startgroup=true')
                         ],[
-                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/at3movies'),
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/CKTalkies')
+                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/SVSTEAMSTUDIODISCUSSION'),
+                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/+DcoEb7L1bfNjYTI1')
                          ]
                         ]
                     )
@@ -259,8 +259,8 @@ async def start(client, message):
                          [
                           InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/TGxMULTIBOT?startgroup=true')
                         ],[
-                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/at3movies'),
-                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/CKTalkies')
+                          InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/SVSTEAMSTUDIODISCUSSION'),
+                          InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/+DcoEb7L1bfNjYTI1')
                          ]
                         ]
                     )
@@ -310,10 +310,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/TGxMULTIBOT?startgroup=true')
+              InlineKeyboardButton("🎁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩​🎁", url=f'http://t.me/svs_auto_filter_bot?startgroup=true')
             ],[
-              InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/at3movies'),
-              InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/CKTalkies')
+              InlineKeyboardButton("🌿 ɢʀᴏᴜᴘ", url='https://t.me/SVSTEAMSTUDIODISCUSSION'),
+              InlineKeyboardButton("🍂 ᴄʜᴀɴɴᴇʟ", url='https://t.me/+DcoEb7L1bfNjYTI1')
              ]
               ]
        )
