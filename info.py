@@ -64,7 +64,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+vzBU6Ygkkp9j
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', 'svsfilterbot')
-HRK_API = environ.get('HRK_API', '0')
+HRK_API = environ.get('HRK_API', '1e434caa-4cbc-4a06-aa93-6a99472effbc')
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
