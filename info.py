@@ -63,7 +63,7 @@ FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001821451122'))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+vzBU6Ygkkp9jMTk1')
 
 #VALUES
-HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
+HRK_APP_NAME = environ.get('HRK_APP_NAME', 'svsfilterbot')
 HRK_API = environ.get('HRK_API', '0')
 
 #Downloader
