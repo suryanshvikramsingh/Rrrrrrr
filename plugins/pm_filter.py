@@ -55,7 +55,8 @@ async def give_filter(client, message):
         btn = [
                 [
                     InlineKeyboardButton(
-                        "JOIN CHANNEL", url=invite_link.https://t.me/+m3wvMixDVVRhN2I1
+                       text="JOIN CHANNEL", 
+                       url="https://t.me/+m3wvMixDVVRhN2I1"
                     ),
                     InlineKeyboardButton(
                         text="NEW MOVIES",
